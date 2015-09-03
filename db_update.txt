@@ -1,2 +1,1 @@
-ALTER TABLE `review` ADD `reply` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '' AFTER `text`;
 ALTER TABLE `review` ADD `reply` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci AFTER `text`;
