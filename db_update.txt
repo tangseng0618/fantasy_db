@@ -1,1 +1,38 @@
 ALTER TABLE `review` ADD `reply` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci AFTER `text`;
+
+delete from country where country_id <> 44;
+delete from zone where country_id <> 44;
+
+UPDATE `country` SET `name` = '中国' WHERE `name` = 'China';
+
+UPDATE `zone` SET `name`= '安徽' WHERE `country_id` = '44' and `name`='Anhui';
+UPDATE `zone` SET `name`= '北京' WHERE `country_id` = '44' and `name`='Beijing';
+UPDATE `zone` SET `name`= '重庆' WHERE `country_id` = '44' and `name`='Chongqing';
+UPDATE `zone` SET `name`= '福建' WHERE `country_id` = '44' and `name`='Fujian';
+UPDATE `zone` SET `name`= '甘肃' WHERE `country_id` = '44' and `name`='Gansu';
+UPDATE `zone` SET `name`= '广东' WHERE `country_id` = '44' and `name`='Guangdong';
+UPDATE `zone` SET `name`= '广西' WHERE `country_id` = '44' and `name`='Guangxi';
+UPDATE `zone` SET `name`= '贵州' WHERE `country_id` = '44' and `name`='Guizhou';
+UPDATE `zone` SET `name`= '海南' WHERE `country_id` = '44' and `name`='Hainan';
+UPDATE `zone` SET `name`= '河北' WHERE `country_id` = '44' and `name`='Hebei';
+UPDATE `zone` SET `name`= '黑龙江' WHERE `country_id` = '44' and `name`='Heilongjiang';
+UPDATE `zone` SET `name`= '河南' WHERE `country_id` = '44' and `name`='Henan';
+UPDATE `zone` SET `name`= '香港' WHERE `country_id` = '44' and `name`='Hong Kong';
+UPDATE `zone` SET `name`= '湖北' WHERE `country_id` = '44' and `name`='Hubei';
+UPDATE `zone` SET `name`= '湖南' WHERE `country_id` = '44' and `name`='Hunan';
+UPDATE `zone` SET `name`= '内蒙古' WHERE `country_id` = '44' and `name`='Inner Mongolia';
+UPDATE `zone` SET `name`= '江苏' WHERE `country_id` = '44' and `name`='Jiangsu';
+UPDATE `zone` SET `name`= '江西' WHERE `country_id` = '44' and `name`='Jiangxi';
+UPDATE `zone` SET `name`= '吉林' WHERE `country_id` = '44' and `name`='Jilin';
+UPDATE `zone` SET `name`= '辽宁' WHERE `country_id` = '44' and `name`='Liaoning';
+UPDATE `zone` SET `name`= '澳门' WHERE `country_id` = '44' and `name`='Macau';
+UPDATE `zone` SET `name`= '宁夏' WHERE `country_id` = '44' and `name`='Ningxia';
+UPDATE `zone` SET `name`= '陕西' WHERE `country_id` = '44' and `name`='Shaanxi';
+UPDATE `zone` SET `name`= '山东' WHERE `country_id` = '44' and `name`='Shandong';
+UPDATE `zone` SET `name`= '上海' WHERE `country_id` = '44' and `name`='Shanghai';
+UPDATE `zone` SET `name`= '山西' WHERE `country_id` = '44' and `name`='Shanxi';
+UPDATE `zone` SET `name`= '四川' WHERE `country_id` = '44' and `name`='Sichuan';
+UPDATE `zone` SET `name`= '天津' WHERE `country_id` = '44' and `name`='Tianjin';
+UPDATE `zone` SET `name`= '新疆' WHERE `country_id` = '44' and `name`='Xinjiang';
+UPDATE `zone` SET `name`= '云南' WHERE `country_id` = '44' and `name`='Yunnan';
+UPDATE `zone` SET `name`= '浙江' WHERE `country_id` = '44' and `name`='Zhejiang';
